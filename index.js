@@ -25,3 +25,15 @@ var prependKitten = function(name){
   var newarr = [name,...kittens];
   return newarr;
 }
+
+var removeLastKitten = function(){
+  var kitty = kittens;
+  kitty.pop();
+  return kitty;
+}
+
+var removeFirstKitten = function(){
+  var kitty = kittens;
+  kitty.shift();
+  return kitty;
+}
